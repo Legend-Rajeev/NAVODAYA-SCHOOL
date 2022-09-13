@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>School Website</title>
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -75,6 +75,8 @@
             <li><a href="#">Login</a></li>
             <li><a href="#">Contact us</a></li>
         </ul>
+        <i class="fa fa-bars d-block" aria-hidden="true" id="toggle-open"></i>
+        <i class="fa fa-times" aria-hidden="true" id="toggle-close"></i>
     </nav>
     <!-- =========/////// End Navigation /////// ======= -->
 
@@ -83,7 +85,9 @@
 
     <slider>
         <div class="slider-content">
-        <img src="../Images/slider1.jpg" alt="">
+            <video autoplay muted loop id="myVideo">
+                <source src="../Videos/video.mp4" type="video/mp4">
+            </video>              
         <div class="slider-body-content">
             <div class="slider-body">
                 <h1>Education is the best key<br> success in life</h1>
@@ -221,8 +225,7 @@
 
 
 
-
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
